@@ -43,5 +43,23 @@ header {
 }
 #Home-image {
     height: 85vh;
+}
+#Features {
+    margin-top: 10vh;
+}
+#Feature-1, #Feature-3 {
+    display: grid;
+    grid-template-columns: 33vw 33vw 33vw;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+    "image text text";
+    align-items: center;
+    justify-content: center;
 
+}
+.Feature-text {
+    grid-area: "text";
+}
+.Feature-image {
+    grid-area: "image";
 }
