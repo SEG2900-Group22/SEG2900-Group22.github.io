@@ -71,4 +71,6 @@ header {
 .Feature-image {
     grid-area: "image";
 }
-
+#team-page {
+    margin-top: 10vh;
+}
