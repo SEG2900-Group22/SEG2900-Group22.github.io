@@ -41,6 +41,14 @@ header {
     display: grid; 
     grid-template-columns: 45% 45%;
 }
+#Pricing-page {
+    margin-top: 10vw;
+}
+#Subscription-Plans {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
 #Home-image {
     height: 85vh;
 }
@@ -63,3 +71,4 @@ header {
 .Feature-image {
     grid-area: "image";
 }
+
