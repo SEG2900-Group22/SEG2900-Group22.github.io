@@ -35,3 +35,7 @@ header {
 .nav-link:hover {
     background-color: #134D55;
 }
+#product-description {
+    height: 90vh;
+    top: 800px;
+}
